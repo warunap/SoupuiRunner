@@ -1,0 +1,40 @@
+2014-08-15 17:06:26,166 WARN  [SoapUI] Missing folder [/home/waruna/workspace/soapuitest/./ext] for external libraries
+2014-08-15 17:06:26,167 INFO  [DefaultSoapUICore] Creating new settings at [/home/waruna/soapui-settings.xml]
+2014-08-15 17:06:26,507 WARN  [SoapUIProGroovyScriptEngineFactory] Missing scripts folder [/home/waruna/workspace/soapuitest/scripts]
+2014-08-15 17:06:26,825 INFO  [WsdlProject] Loaded project from [file:/home/waruna/workspace/soapuitest/src/main/resources/projects/Version-soapui-project.xml]
+2014-08-15 17:06:26,991 INFO  [TestSuitePropertiesModifier] Configuring test suite properties
+2014-08-15 17:06:26,992 INFO  [TestSuitePropertiesModifier] Test suite properties configuration done
+2014-08-15 17:06:26,992 INFO  [SoapUIProExtensionTestCaseRunner] Running SoapUI tests in project [Version]
+2014-08-15 17:06:26,993 INFO  [SoapUIProExtensionTestCaseRunner] Running Project [Version], runType = SEQUENTIAL
+2014-08-15 17:06:27,010 INFO  [SoapUIProExtensionTestCaseRunner] Running SoapUI testcase [getVersion TestCase]
+2014-08-15 17:06:27,014 INFO  [SoapUIProExtensionTestCaseRunner] running step [getVersion]
+2014-08-15 17:06:27,139 INFO  [SoapUIProExtensionTestCaseRunner] Finished running SoapUI testcase [getVersion TestCase], time taken: 118ms, status: FINISHED
+2014-08-15 17:06:27,144 INFO  [SoapUIProExtensionTestCaseRunner] Running SoapUI testcase [getVersion TestCase]
+2014-08-15 17:06:27,145 INFO  [SoapUIProExtensionTestCaseRunner] running step [getVersion]
+2014-08-15 17:06:27,152 INFO  [SoapUIProExtensionTestCaseRunner] Finished running SoapUI testcase [getVersion TestCase], time taken: 7ms, status: FINISHED
+2014-08-15 17:06:27,152 INFO  [SoapUIProExtensionTestCaseRunner] Project [Version] finished with status [FINISHED] in 157ms
+2014-08-15 17:06:27,480 INFO  [SoapUIProExtensionTestCaseRunner] Created report at file:/home/waruna/workspace/soapuitest/src/main/resources/Version-soapui-project/index.html
+2014-08-15 17:06:27,489 INFO  [WsdlProject] Loaded project from [file:/home/waruna/workspace/soapuitest/src/main/resources/projects/echo-soapui-project.xml]
+2014-08-15 17:06:27,504 INFO  [TestSuitePropertiesModifier] Configuring test suite properties
+2014-08-15 17:06:27,504 INFO  [TestSuitePropertiesModifier] Test suite properties configuration done
+2014-08-15 17:06:27,504 INFO  [SoapUIProExtensionTestCaseRunner] Running SoapUI tests in project [echo?wsdl]
+2014-08-15 17:06:27,505 INFO  [SoapUIProExtensionTestCaseRunner] Running Project [echo?wsdl], runType = SEQUENTIAL
+2014-08-15 17:06:27,505 INFO  [SoapUIProExtensionTestCaseRunner] Running SoapUI testcase [echoInt TestCase]
+2014-08-15 17:06:27,510 INFO  [SoapUIProExtensionTestCaseRunner] running step [echoInt]
+2014-08-15 17:06:27,850 INFO  [SoapUIProExtensionTestCaseRunner] Assertion [Contains] has status VALID
+2014-08-15 17:06:27,850 INFO  [SoapUIProExtensionTestCaseRunner] Assertion [SOAP Response] has status VALID
+2014-08-15 17:06:27,850 INFO  [SoapUIProExtensionTestCaseRunner] Assertion [Contains 1] has status VALID
+2014-08-15 17:06:27,850 INFO  [SoapUIProExtensionTestCaseRunner] Assertion [Contains] has status VALID
+2014-08-15 17:06:27,850 INFO  [SoapUIProExtensionTestCaseRunner] Assertion [Contains] has status VALID
+2014-08-15 17:06:27,850 INFO  [SoapUIProExtensionTestCaseRunner] Finished running SoapUI testcase [echoInt TestCase], time taken: 339ms, status: FINISHED
+2014-08-15 17:06:27,851 INFO  [SoapUIProExtensionTestCaseRunner] Running SoapUI testcase [echoString TestCase]
+2014-08-15 17:06:27,851 INFO  [SoapUIProExtensionTestCaseRunner] running step [echoString]
+2014-08-15 17:06:27,858 INFO  [SoapUIProExtensionTestCaseRunner] Finished running SoapUI testcase [echoString TestCase], time taken: 7ms, status: FINISHED
+2014-08-15 17:06:27,859 INFO  [SoapUIProExtensionTestCaseRunner] Running SoapUI testcase [echoInt TestCase]
+2014-08-15 17:06:27,863 INFO  [SoapUIProExtensionTestCaseRunner] running step [echoInt]
+2014-08-15 17:06:27,871 INFO  [SoapUIProExtensionTestCaseRunner] Finished running SoapUI testcase [echoInt TestCase], time taken: 7ms, status: FINISHED
+2014-08-15 17:06:27,872 INFO  [SoapUIProExtensionTestCaseRunner] Running SoapUI testcase [echoString TestCase]
+2014-08-15 17:06:27,872 INFO  [SoapUIProExtensionTestCaseRunner] running step [echoString]
+2014-08-15 17:06:27,879 INFO  [SoapUIProExtensionTestCaseRunner] Finished running SoapUI testcase [echoString TestCase], time taken: 6ms, status: FINISHED
+2014-08-15 17:06:27,879 INFO  [SoapUIProExtensionTestCaseRunner] Project [echo?wsdl] finished with status [FINISHED] in 374ms
+2014-08-15 17:06:27,933 INFO  [SoapUIProExtensionTestCaseRunner] Created report at file:/home/waruna/workspace/soapuitest/src/main/resources/echo-soapui-project/index.html

@@ -1,0 +1,48 @@
+Status: FAILED
+Time Taken: 389
+Size: 273
+Timestamp: Fri Aug 15 14:35:09 IST 2014
+TestStep: echoInt
+
+----------------- Messages ------------------------------
+[Contains 1] Missing token [15] in Response
+
+----------------- Properties ------------------------------
+Encoding: UTF-8
+Endpoint: https://waruna-Latitude-E6540:8243/services/echo.echoHttpsSoap12Endpoint
+
+---------------- Request ---------------------------
+Request Headers: Host : waruna-Latitude-E6540:8243
+Content-Length : 279
+Accept-Encoding : gzip,deflate
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Connection : Keep-Alive
+Content-Type : application/soap+xml;charset=UTF-8;action="urn:echoInt"
+
+
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:echo="http://echo.services.core.carbon.wso2.org">
+   <soap:Header/>
+   <soap:Body>
+      <echo:echoInt>
+         <!--Optional:-->
+         <in>10</in>
+      </echo:echoInt>
+   </soap:Body>
+</soap:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Transfer-Encoding : chunked
+Date : Fri, 15 Aug 2014 09:05:09 GMT
+#status# : HTTP/1.1 200 OK
+Connection : Keep-Alive
+Content-Type : application/soap+xml; charset=UTF-8; action="urn:echoIntResponse"
+Server : WSO2-PassThrough-HTTP
+
+
+<soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope">
+   <soapenv:Body>
+      <ns:echoIntResponse xmlns:ns="http://echo.services.core.carbon.wso2.org">
+         <return>10</return>
+      </ns:echoIntResponse>
+   </soapenv:Body>
+</soapenv:Envelope>
